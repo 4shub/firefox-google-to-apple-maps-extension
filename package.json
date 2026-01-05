@@ -1,0 +1,19 @@
+{
+  "name": "firefox-apple-maps-redirect",
+  "version": "1.0.0",
+  "description": "Firefox extension to redirect Google Maps to Apple Maps",
+  "scripts": {
+    "build": "./build.sh",
+    "test": "web-ext lint",
+    "start": "web-ext run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/firefox-apple-maps-redirect"
+  },
+  "author": "Shubham Naik",
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "^7.0.0"
+  }
+}
