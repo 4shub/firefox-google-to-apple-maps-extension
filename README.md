@@ -1,3 +1,4 @@
+![icon](icons/icon-48.png)
 # Google Maps to Apple Maps Redirector
 
 A lightweight Firefox extension that automatically redirects Google Maps to the native Apple Maps desktop app on macOS.
