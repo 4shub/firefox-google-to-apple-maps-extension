@@ -2,5 +2,9 @@
 *.zip
 .DS_Store
 web-ext-artifacts/
+icons/root.af*
+build/
+node_modules/
+package-lock.json
 .letta
 .idea
