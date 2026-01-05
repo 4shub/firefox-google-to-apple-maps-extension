@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Google Maps to Apple Maps Redirector",
+  "version": "3.0",
+  "description": "Automatically redirects Google Maps to Apple Maps desktop app",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.google.com/*",
+    "*://maps.google.com/*",
+    "*://goo.gl/*",
+    "*://maps.app.goo.gl/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  }
+}
