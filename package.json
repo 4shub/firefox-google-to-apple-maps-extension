@@ -4,8 +4,23 @@
   "description": "Firefox extension to redirect Google Maps to Apple Maps",
   "scripts": {
     "build": "./build.sh",
-    "test": "web-ext lint",
+    "test": "web-ext lint --ignore-files=build.sh --ignore-files=build/ --ignore-files=*.md --ignore-files=package.json --ignore-files=package-lock.json",
     "start": "web-ext run"
+  },
+  "webExt": {
+    "ignoreFiles": [
+      "build.sh",
+      "build/",
+      "*.md",
+      "package.json",
+      "package-lock.json",
+      ".git/",
+      ".gitignore",
+      ".DS_Store",
+      ".idea/",
+      ".letta/",
+      "icons/root.af*"
+    ]
   },
   "repository": {
     "type": "git",
