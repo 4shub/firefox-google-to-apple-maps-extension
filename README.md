@@ -14,7 +14,7 @@ Feel free to contribute, it's not really that complex.
 ## Local Development
 1. Clone the repository
 1. Run `npm install` to install dependencies
-1. Run `npm run start` to start a development server with hot reloading
+1. Run `npm run start` to start a development server with hot reloading (You need normal Firefox to test, not Firefox Developer Edition)
 
 ## Testing
 
